@@ -4,7 +4,7 @@
 
 # Open in Browser:
 - ```http://localhost:8080/health```
-- dckr_pat_3WZdwMVe2RJStDQjR4F7FLSOb8Y
+
 # HELP
 - ```docker ps -a```
 - ```docker rm $(docker ps -qa)```
