@@ -1,6 +1,7 @@
 # RUN
-- ```docker build . -t ichirub/ot-microservice-dz1```
-- ```docker run -d -it --rm -p 8080:80 --name=ot-microservice-dz1 ichirub/ot-microservice-dz1 && composer install```
+- ```docker build . -t ichirub/ot-microservice-dz1:1.0.0```
+- ```docker run -d -it --rm -p 80:80 --name=test ichirub/ot-microservice-dz1:1.0.0```
+- ```docker run -d -it --rm -p 80:80 --name=ot-microservice-dz1 ichirub/ot-microservice-dz1:1.0.0 && composer install```
 
 # Open in Browser:
 - ```http://localhost:8080/health```
