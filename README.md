@@ -1,9 +1,9 @@
 # RUN
-- ```docker build . -t ichirub/ot-microservice-dz1:1.0.0```
-- ```docker run -d -it --rm -p 80:80 --name=ot-microservice-dz1 ichirub/ot-microservice-dz1:1.0.0```
+- ```docker build . -t ichirub/ot-microservice-dz1:1.0.1```
+- ```docker run -d -it --rm --name=ot-microservice-dz1 ichirub/ot-microservice-dz1:1.0.1```
 
 # Open in Browser:
-- ```http://localhost/health```
+- ```http://localhost:8000/health```
 
 # HELP
 - ```docker ps -a```
@@ -13,4 +13,4 @@
 
 # DOCKER HUB
 - ```docker login -u ichirub```
-- ```docker push ichirub/ot-microservice-dz1:latest```
+- ```docker push ichirub/ot-microservice-dz1:1.0.1```

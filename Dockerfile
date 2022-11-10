@@ -44,4 +44,4 @@ RUN composer install \
 
 RUN chown -R www-data:www-data vendor/
 
-EXPOSE 80
+EXPOSE 8000
